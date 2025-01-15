@@ -1,0 +1,47 @@
+Course Name,Grading Strength,Class Average,Standard Deviation,S,A,B,C,D,E
+Engineering Chemistry,58,61.36999893,11.5,80,67,56,50,44,38
+Basic Electrical and Electronics Engineering,58,76.94000244,8.449999809,88,81,73,68,64,50
+Calculus,58,79.93,11.95,95,86,74,68,62,50
+Structured and Object-Oriented Programming,64,62.17,17.82,85,71,53,44,35,27
+Data Structures and Algorithms,66,65.9,14.89,85,73,58,51,44,36
+Technical English Communication,68,74.94000244,4.650000095,82,77,73,70,68,50
+Differential Equations and Transforms,69,66.91999817,14.47999954,88,74,60,52,45,38
+Engineering Physics,71,72.05000305,12.57999992,91,78,66,59,53,47
+Digital Systems Design,65,71.26999664,14.35999966,90,78,64,57,50,43
+Cognitive Psychology        ,66,80.70999908,5.070000172,87,83,78,76,73,50
+Complex Variables and Linear Algebra,70,78.65,11.75,95,85,73,67,61,50
+Discrete Mathematics and Graph Theory,70,78.05000305,10.14000034,92,83,73,68,63,50
+Design and Analysis of Algorithms,70,77.47000122,10.43000031,89,83,72,67,62,50
+Computer Architecture and Organization,70,74.04000092,13.05000019,93,81,68,61,54,48
+Theory of Computation,70,70.76999664,10.98999977,86,76,65,60,54,49
+Microprocessors and Microcontrollers,68,68.72000122,16.37000084,92,77,61,52,44,36
+Probability and Statistics,68,74.94000244,16.28000069,96,83,67,59,51,42
+Database Systems,68,66.66999817,10.93999958,80,72,61,56,50,45
+Operating Systems,61,67.90000153,7.480000019,80,72,64,60,57,50
+Artificial Intelligence,70,71.75,5.860000134,80,75,69,66,63,50
+Compiler Design,69,66.94999695,10.81000042,81,72,62,56,51,45
+Computer Networks,69,70.18000031,9.020000458,80,75,66,61,57,50
+AWS Solutions Architect,67,66.52999878,10.75,81,72,61,56,50,45
+Engineering Chemistry,62,81.02999878,9.029999733,91,86,77,72,67,50
+Basic Electrical and Electronics Engineering,61,71.12999725,15.48999977,91,79,63,56,48,40
+Calculus,62,75.91000366,15.28999996,93,84,68,61,53,45
+Structured and Object-Oriented Programming,67,70.29000092,15.77999973,90,78,62,55,47,39
+Data Structures and Algorithms,70,71.77999878,14.73999977,92,79,64,57,50,42
+Technical English Communication,58,74.30999756,10.51000023,86,80,69,64,59,50
+Differential Equations and Transforms,69,71.91999817,12.98999977,90,78,65,59,52,46
+Engineering Physics,53,63.38999939,14.89999962,85,71,56,48,41,34
+Digital Systems Design,48,68.04000092,17.30999947,86,77,59,51,42,33
+Complex Variables and Linear Algebra,70,69.01999664,16.14999962,90,77,61,53,45,37
+Discrete Mathematics and Graph Theory,69,78.44,15.04,96,86,71,63,56,48
+Design and Analysis of Algorithms,68,61.79999924,9.840000153,80,67,57,52,47,42
+Computer Architecture and Organization,67,67.19999695,14.48999977,87,74,60,53,45,38
+Theory of Computation,69,63.54999924,13.92000008,85,71,57,50,43,36
+Microprocessors and Microcontrollers,70,72.04000092,12.31999969,91,78,66,60,54,47
+Probability and Statistics,66,71.83,14.41,93,79,65,57,50,43
+Database Systems,70,75.87999725,9.739999771,90,81,71,66,61,50
+Operating Systems,69,76.27999878,11.31000042,92,82,71,65,59,50
+Compiler Design,66,58.40000153,11.53999996,80,64,53,47,41,35
+Computer Networks,67,60.95000076,13.72000027,80,68,54,47,40,34
+AWS Solutions Architect,68,70.23000336,4.760000229,80,73,68,65,63,50
+Microprocessors and Microcontrollers,59,60.04999924,13.14000034,84,67,53,47,40,34
+Complex Variables and Linear Algebra,58,65.51000214,6.940000057,80,69,62,59,55,50
