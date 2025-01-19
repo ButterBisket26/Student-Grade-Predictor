@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grades Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Relative Grade Predictor</h1>
+        </header>
+
+        <section class="main-content">
+            <div class="content-title">Find the Minimum Marks to Secure Your Desired Grade</div>
+
+            <div class="content-wrapper">
+
+                <div class="logo">
+                    <img src="static/Image/img1.jpg" alt="Grade Logo">
+                </div>
+
+
+                <form action="{{ url_for('predict') }}" method="post" class="prediction-form">
+                    <div class="form-group">
+                        <label for="grading-strength">Enter the Grading Strength</label>
+                        <input type="text" id="grading-strength" name="grading_strength" placeholder="Example: 65."
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="class-average">Enter the Class Average</label>
+                        <input type="text" id="class-average" name="class_average" placeholder="Example: 70." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="std-deviation">Enter the Standard Deviation</label>
+                        <input type="text" id="std-deviation" name="std_deviation" placeholder="Example: 10." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="grade">Select the Desired Grade</label>
+                        <select id="grade" name="grade">
+                            <option value="">Select your option</option>
+                            <option value="4">S</option>
+                            <option value="5">A</option>
+                            <option value="6">B</option>
+                            <option value="7">C</option>
+                            <option value="8">D</option>
+                            <option value="9">E</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn">Predict</button>
+                    </div>
+                </form>
+            </div>
+
+            {% if prediction_text %}
+            <div class="prediction-result">
+                <h4>{{ prediction_text }}</h4>
+            </div>
+            {% endif %}
+        </section>
+    </div>
+</body>
+
+</html>
